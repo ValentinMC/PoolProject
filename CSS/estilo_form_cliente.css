@@ -1,0 +1,81 @@
+@font-face {
+  font-family: fuenteFormulario;
+    src: url(sansation_light.woff);
+}
+
+body{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: lighter;
+  background: #bbbdff;
+}
+form{
+  background: rgba(250, 255, 251, 0.767);
+  margin: 10% auto;
+  border:solid 1px black;
+  border-radius: 10px;
+  width: 40%;
+  padding: 15px;
+}
+
+input{
+  background:#F5F9FF;
+  margin-top: 5px;
+  border: 1px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 6px;
+  transition: 0.3s;
+
+}
+input:hover{
+  border-style: solid;
+}
+input:invalid {
+  border-bottom: 1px solid red;
+}
+#datos input:valid {
+  border-bottom: 1px solid green;
+}
+#datos input:focus{
+  background-color: #E3EEFF;
+}
+fieldset{
+  border-radius: 5px;
+  border-color: #bbbdff;
+  margin-top: 10px;
+}
+legend{
+  background-image:linear-gradient(#C0D9FF,#bbbdff );
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+select{
+  padding:5px;
+  border-radius: 5px;
+  background-color: #FFFFF0;
+}
+h1{
+  font-size: 23px;
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 18px;
+}
+#gustos p{
+  font-size: 17px;
+  font-weight: bold;
+}
+#terminos{
+  font-style: italic;
+  font-weight: bold;
+}
+
+input[type="submit"]{
+  color: grey;
+}
+input[type="reset"]{
+  color: grey;
+  float: right;
+}

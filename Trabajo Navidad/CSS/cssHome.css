@@ -103,6 +103,7 @@ a::selection{
   text-align: center;
 }
 .pHijo{
+  text-decoration: none;
   float: left;
   background-color: blue;
   margin-top: 300px;
