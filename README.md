@@ -8,6 +8,6 @@
 ###T areas
 1. Hacer demo
 
-···Index (juancar)
+··· Index (juancar)
 
-···Formulario usuario
+··· Formulario usuario
