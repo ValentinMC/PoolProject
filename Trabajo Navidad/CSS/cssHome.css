@@ -1,0 +1,262 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../Fuentes/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: GothamBold;
+  src: url(../Fuentes/Gotham Bold.otf);
+}
+@font-face {
+  font-family: MinionBlod;
+  src: url(../Fuentes/minionpro-bold.otf);
+}
+@font-face {
+  font-family: Minion;
+  src: url(../Fuentes/minionpro-cnitsubh.otf);
+}
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: Montserrat,GothamBold;
+  /*background-color: #E5E8E8;*/
+}
+.header2{
+  position: relative;
+/*  background-color:#E6B0AA;*/
+  color: black;
+  height: 30px;
+  width: auto;
+  margin-top: 0px;
+  display: block;
+  font-family:Montserrat;
+  font-size: 12px;
+  box-sizing: border-box;
+
+}
+
+.header{
+  position: relative;
+  background-color:#515A5A;
+  color: white;
+  height: 55px;
+  text-align: center;
+  width: auto;
+  margin-top: 0px;
+  display: block;
+  font-family:Montserrat;
+  font-size: 12px;
+  box-sizing: border-box;
+
+}
+/*FORMATO DEL MUNU DESPLEGABLE DEL HEADER 2*/
+.nav{
+  display: inline;
+  position: absolute;
+  margin: 0px;
+}
+.nav ul{
+  margin: 0px;
+}
+.nav ul li{
+  cursor: pointer;
+}
+.nav li ul li a{
+  background-color: #FFF;
+}
+.nav ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display:block;
+
+}
+.nav ul li a:hover{
+  background-color:#424242;
+  ursor: pointer;
+  color:#fff;
+
+}
+a::selection{
+  background-color:#424242;
+}
+.nav ul > li{
+  float:left;
+}
+.nav ul li ul{
+  display:none;
+  position: absolute;/*si no ponemos esta propiedad el menu creceria*/
+  min-width: 140px;
+
+}
+.nav ul li:hover > ul{
+  display: block;
+  cursor: pointer;
+}
+/*TEXTO 2 ES EL SEGUNDO BODY DENTRO DE LA PAGINA*/
+.texto2{
+  background-image: url("../IMG/piscina2.jpg");
+  top:0;
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+.buttom{
+
+}
+
+.centrar{
+  display: block;
+  width:100%;
+  text-align: center;
+  margin-top: 300px;
+}
+a{
+  color: black;
+}
+.logo{
+  width:20%;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+  line-height: 10px;
+  height: 100%;
+  padding-top: 0px;
+  font-size: 20px;
+  display: inline-block;
+}
+.fijo{
+position: fixed;
+width: 100%;
+top: 0;
+
+}
+.frase{
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding-top: 8px;
+  /*margin-left: auto;/*
+/*  margin: 0px,2px,0px,2px;*/
+
+  border-color: 1px solid black;
+}
+.buttons{
+  width: 26%;
+  height:100%;
+  box-sizing: border-box;
+  float: left;
+  padding-top: 10px;
+}
+.buttons ul li{
+  display: inline-block;
+}
+.buttons ul li a{
+  color: white;
+  text-decoration: none;
+}
+#img {
+  border-radius:100%;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 4px;
+  position: relative;
+}
+div.aside_left{
+  text-align: center;
+  float: left;
+  width: 180px;
+  height: 200px;
+  background-color: #E5E8E8;
+  margin-left: 23%;
+
+}
+div.aside_center{
+  text-align: center;
+  float: left;
+  width: 180px;
+  height: 200px;
+  background-color: #E5E8E8;
+  margin-left: 45px;
+
+}
+div.aside_right{
+  text-align: center;
+  float: left;
+  background-color: #E5E8E8;
+  margin-left: 45px;
+  width: 180px;
+  height: 200px;
+}
+.imagenes{
+  width:60%;
+  height: 60%;
+  border-radius: 160px;
+  padding-top: 10px;
+}
+.imgGaleria{
+  width:150%;
+  height: 60%;
+  padding-top: 10px;
+}
+.aside_left div:hover{
+  transform: scale(1.5 ,1.5);
+}
+.aside_center div:hover{
+  transform: scale(1.5 ,1.5);
+}
+.aside_right div:hover{
+  transform: scale(1.5 ,1.5);
+}
+
+ul, ol{
+  list-style: none;
+}
+#negrita{
+  font-size: 25px;
+  font-family:"Montserrat";
+padding: 0px;
+margin-top: 10px;
+}
+h2{
+  font-family: MinionBlod;
+}
+.texto p{
+  font-family: Minion;
+  font-size: 20px;
+}
+
+.texto{
+  box-shadow: 10px 10px 5px #E6B0AA ;
+  margin: 20px;
+  padding: 10px 10px 20px 10px;
+  text-align:center;
+  border: 2px solid;
+  border-radius: 5px;
+}
+div.aside_left2{
+  text-align: center;
+  float: left;
+  width: 180px;
+  height: 200px;
+  margin-left: 10%;
+
+}
+div.aside_center2{
+  text-align: center;
+  float: left;
+  width: 180px;
+  height: 200px;
+  margin-left: 120px;
+
+}
+div.aside_right2{
+  text-align: center;
+  float: left;
+  margin-left: 10%;
+  width: 180px;
+  height: 200px;
+}
+
+
+}

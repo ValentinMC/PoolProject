@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../CSS/cssHome.css">
+    <style type="text/css">
+
+
+
+      .nav{
+        display: inline;
+        position: absolute;
+        margin: 0px;
+      }
+      .nav ul{
+        margin: 0px;
+      }
+      .nav ul li{
+        cursor: pointer;
+      }
+      .nav li ul li a{
+        background-color: #FFF;
+      }
+      .nav ul li a {
+        text-decoration: none;
+        padding: 10px 15px;
+        display:block;
+
+      }
+      .nav ul li a:hover{
+        background-color:#424242;
+        ursor: pointer;
+        color:#fff;
+
+      }
+      a::selection{
+        background-color:#424242;
+      }
+      .nav ul > li{
+        float:left;
+      }
+      .nav ul li ul{
+        display:none;
+        position: absolute;/*si no ponemos esta propiedad el menu creceria*/
+        min-width: 140px;
+      }
+      .nav ul li:hover > ul{
+        display: block;
+        cursor: pointer;
+      }
+      /*CUADRO DE LA TABLA*/
+      .texto3{
+        border-style: solid;
+        border-color: #aaaaaa;
+        width: 1200px;
+        margin-top: 90px;
+        background-color: #F2F4F4 ;
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+        border-radius: 5px;
+        height: 1000px;
+      }
+      /*CSS DE LA TABLA DE TALLAS*/
+      .egt{
+        margin-left:auto;
+        margin-right:auto;
+        float: left;
+      }
+      div table tbody tr{
+          width: 50px;
+      }
+      table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,td{
+        padding: 4px;
+      }
+      th{
+        text-align: center;
+      }
+      .volver{
+        display: inline-block;
+        padding-top: 22px;
+      }
+      .imgGaleria:hover{
+        transform: scale(1.2 ,1.2);
+        box-shadow:2px #E6B0AA;
+      }
+      /*COLOCACION DE LAS FOTOS*/
+      div.aside_left3{
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        margin-left: 15%;
+        float: left;
+      }
+      .texto3descripcion{
+      width: 50%;
+      float: left;
+      margin-left: 50%
+      }
+      .tabla3{
+        float: left;
+        margin-left: 60%;
+        margin-top: 10%;
+      }
+      div.aside_center3 {
+        text-align: center;
+        margin-left: 12%;
+        width: 10%;
+        height: 200px;
+        float: left;
+        padding-top: 7%;
+        margin-right: 0px;
+        padding-right: 0px;
+      }
+      div.aside_right3{
+        margin-left: 12%;
+        width: 10%;
+        height: 180px;
+        float: left;
+        padding-top: 7%;
+      }
+      .imgGaleria2{
+        width: 150%;
+        height: 250px;
+        padding-top: 10px;
+      }
+      .centro_tabla{
+        float: right;
+      }
+      .col11{
+        float:right;
+      }
+
+    </style>
+  </head>
+  <body>
+    <a name="LOGOANCLA"></a>
+      <div class="fijo">
+        <div class="header">
+          <div class="logo">
+            <a href="#LOGOANCLA"><img id="img" src="../IMG/fotoLabiosRECORT.jpg" alt="logo"></a>
+            <div class="volver">
+              <a href="home.html">Volver</a>
+            </div>
+
+          </div>
+          <div class="frase">
+            <p>BIENVENIDOS A LA PAGINA DE IGNEA</p>
+          </div>
+          <div class="buttons">
+            <ul>
+              <li><a href="https://www.instagram.com/ignea_team/?hl=es" target="_blank">Instagram |</a></li>
+              <li><a href="mailto:ignearopa@gmail.com"><img src="" alt="">Correo |</a></li>
+              <li><a href="#"><img src="" alt="">FaceBook</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="header2">
+          <div class="logo">
+            <p id="negrita"><strong>IGNEA SHOP</strong></p>
+          </div>
+          <div class="nav">
+            <ul>
+            <li><a>CONÓCENOS</a></li>
+            <li><a>CAMISETAS</a>
+              <ul>
+                <li><a href="camiseta1.html" >KISSING STORM</a></li>
+                <li><a href="camiseta2.html" >DARKNESS</a></li>
+                <li><a href="camiseta3.html" >BAD GIRL</a></li>
+              </ul>
+            </li>
+            <li><a>SUDADERAS</a>
+              <ul>
+                <li><a href="">SUDADERA 1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+
+      <!--HASTA AQUI LAS DOS BARRAS DEL PRINCIPIO-->
+      <div class="texto3"><!--SEGUNDO BODY DE LA PAGINA.-->
+        <center>
+        <h1>KISSING STORM</h1>
+        </center>
+        <br></br>
+          <div class="aside_left3">
+            <div class="col11">
+              <img class="imgGaleria" src="../IMG/richar1.jpeg" alt="">
+            </div>
+          </div>
+          <div class="texto3descripcion">
+            <h2>DESCRIPCION</h2>
+            <p>Camiseta blanca labios contraste.</p>
+            <p>Camiseta de color blanco con detalle de ilustración tipo dibujo en contraste, de manga corta, con cuello redondo y confeccionada en 100% algodón.</p>
+          </div>
+          <div class="tabla3">
+            <table class="egt">
+            <tr>
+              <th>TALLAS</th>
+              <th>DISPONIBILIDAD</th>
+            </tr>
+            <tr>
+              <td>S</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>M</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>L</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>XL</td>
+              <td>2</td>
+            </tr>
+          </table>
+          </div>
+        <div class="aside_center3">
+          <div class="">
+            <img class="imgGaleria2" src="../IMG/labios1.jpg" alt="">
+            <br></br>
+            <br></br>
+          </div>
+        </div>
+        <div class="aside_right3">
+          <div>
+            <img class="imgGaleria2" src="../IMG/richar2.jpeg" alt="">
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        </div>
+        <br></br>
+        <br></br>
+
+        <br></br><br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      </div>
+  </body>
+</html>
