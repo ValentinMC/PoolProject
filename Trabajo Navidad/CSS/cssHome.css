@@ -23,7 +23,7 @@ body{
 }
 .header2{
   position: relative;
-/*  background-color:#E6B0AA;*/
+  /*background-color:#E6B0AA;*/
   color: black;
   height: 30px;
   width: auto;
@@ -97,18 +97,26 @@ a::selection{
   background-image: url("../IMG/piscina2.jpg");
   top:0;
   display: block;
-  width: 100%;
+  width: auto;
   height: 600px;
+  text-align: center;
 }
-.buttom{
-
+.pHijo{
+  float: left;
+  background-color: blue;
+  margin-top: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-
+.divHijo{
+  width: 250px;
+  height: 300px;
+  margin:0px auto;
+}
 .centrar{
   display: block;
   width:100%;
   text-align: center;
-  margin-top: 300px;
 }
 a{
   color: black;
