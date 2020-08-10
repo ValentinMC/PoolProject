@@ -95,6 +95,7 @@ a::selection{
 /*TEXTO 2 ES EL SEGUNDO BODY DENTRO DE LA PAGINA*/
 .texto2{
   background-image: url("../IMG/piscina2.jpg");
+  background-repeat: no-repeat;
   top:0;
   display: block;
   width: auto;
