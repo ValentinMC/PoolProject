@@ -5,9 +5,9 @@
 ##### H5
 ###### H6
 # PoolProject
-###T areas
+### Tareas
 1. Hacer demo
 
-··· Index (juancar)
+···Index (juancar)··
 
-··· Formulario usuario
+···Formulario usuario··
