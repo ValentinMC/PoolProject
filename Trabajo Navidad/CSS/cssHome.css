@@ -146,7 +146,6 @@ top: 0;
   padding-top: 8px;
   /*margin-left: auto;/*
 /*  margin: 0px,2px,0px,2px;*/
-
   border-color: 1px solid black;
 }
 .buttons{
@@ -227,6 +226,7 @@ ul, ol{
 padding: 0px;
 margin-top: 10px;
 }
+/*
 h2{
   font-family: MinionBlod;
 }
@@ -266,6 +266,6 @@ div.aside_right2{
   width: 180px;
   height: 200px;
 }
-
+*/
 
 }
