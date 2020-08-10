@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../CSS/estilo_form_cliente.css">
+    <title></title>
+  </head>
+  <body>
+    <!--Darle un form result a un archivo php-->
+    <form action="../PHP/prueba1.php" method="post"  onreset="alert('Comienza de nuevo');" onsubmit="alert('Su reserva ha sido enviada')">
+      <h1>FORMULARIO PRESUPUESTO</h1>
+      <p>¡PIDE AHORA TU MEJOR PRESUPUESTO CON NOSOTROS!</p>
+      <hr>
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <div id="datos">
+          <br>
+          <input type="text" name="nombre" required placeholder="Nombre" size="20" pattern="[A-Za-z]{1,25}" title="No más de 25 letras y solo un nombre">
+          <br><br>
+          <input type="text" name="apellido" required placeholder="Apellido" size="20" pattern="[A-Za-z]{1,25}" title="No más de 25 letras y sólo un apellido">
+          <br><br>
+          <input type="text" name="dni" required placeholder="DNI/NIE" size="20">
+          <br><br>
+          <!--Aqui hay que poner un valor mínimo que representa el día actual. Hay que hacerlo con JS"-->
+          <input type="date" name="fecha_construccion" required placeholder="Fecha de construcción">
+          <br><br>
+          <input type="email" name="email" placeholder="e-mail" size="20">
+          <br><br>
+          <input type="text" name="tlf" placeholder="Teléfono de contacto">
+          <br><br>
+        </fieldset>
+      <fieldset>
+        <legend>Tipo de piscina</legend>
+      </div>
+      <div id="gustos">
+          <br>
+        <label> <input type="radio" name="tipo" checked value="obra">Piscina de obra</label> <br><br>
+        <label><input type="radio" name="tipo" value="prefabricada">Piscina prefabricada</label> <br><br>
+        <label><input type="radio" name="tipo" value="reforma_reparacion">Reforma o reparación</label> <br><br>
+        <label><input type="radio" name="tipo" value="arena">Piscina de arena</label> <br><br>
+<!--
+        <select>
+          <optgroup label="Ensaladas">
+            <option value="cesar">Cesar</option>
+            <option value="mar">Griega</option>
+            <option value="mar" disabled>Frutos del mar</option>
+          </optgroup>
+          <optgroup label="Carnes">
+            <option value="ternera">Ternera</option>
+            <option value="pollo">Pollo</option>
+            <option value="toro">Rabo de toro</option>
+          </optgroup>
+        </select>
+-->
+      </div>
+    </fieldset>
+<!--
+    <fieldset>
+      <legend>Extras</legend>
+      <div id="extras">
+        <p>*La bebida y el postre no esta incluido en el menu</p>
+        <label><input type="checkbox" name="extras" value="bebida">Bebida (+1.50€)</label> <br>
+        <label><input type="checkbox" name="extras" value="3-4">Postre(+1.50€)</label>
+        <br>
+      </div>
+    </fieldset>
+-->
+    <br>
+    <label id="terminos"> <input type="checkbox" required name="terms"> Acepto los términos y condiciones de uso </label>
+    <br><br>
+    <input type="submit" name="submit" value="RESERVAR">
+    <input type="reset" name="reset" value="BORRAR">
+  </form>
+  </body>
+</html>
