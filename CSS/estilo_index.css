@@ -1,7 +1,30 @@
 body{
   margin:0;
+
+}
+
+.divPadre{
   background-image: url("../IMAGES/piscina2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  top:0;
+  display: block;
+  width: auto;
+  height: 600px;
+  text-align: center;
+}
+.divHijo{
+  width: 250px;
+  height: 300px;
+  margin:0px auto;
+}
+.aNieta{
+  text-decoration: none;
+  float: left;
+  color: black;
+  background-color: blue;
+  margin-top: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

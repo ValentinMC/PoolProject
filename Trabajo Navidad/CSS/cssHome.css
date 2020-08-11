@@ -96,6 +96,8 @@ a::selection{
 .texto2{
   background-image: url("../IMG/piscina2.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   top:0;
   display: block;
   width: auto;
