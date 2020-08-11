@@ -12,27 +12,40 @@ header{
   background-color: #515A5A;
   color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
+
 .logo{
   cursor: pointer;
+  flex:1;
+}
+header p{
+  flex:2;
+  text-align: center;
+}
+nav{
+  flex: 1;
+
 }
 ul{
   padding: 0;
 }
 .redes{
+
+  flex:1;
   list-style: none;
 }
 .redes li{
-  padding: 0px 5px;
+
+  /*padding: 0px 5px;*/
   display: inline-block;
 }
+
 button{
   background-color: #515A5A;
   color: white;
-  padding: 5px 15px;
   border: none;
+  padding: 5px 5px;
   border-radius: 10px;
   cursor: pointer;
 }

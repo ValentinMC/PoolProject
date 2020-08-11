@@ -1,91 +1,3 @@
-/*@font-face {
-  font-family: fuenteFormulario;
-  src: url(../FONTS/Montserrat-Regular.ttf);
-}
-*{
-  font-family: fuenteFormulario;
-  font-weight: lighter;
-}
-header{
-  box-sizing: border-box;
-  padding: 0px 5%;
-  background-color: #515A5A;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo{
-  cursor: pointer;
-}
-ul{
-  padding: 0;
-}
-.redes{
-  list-style: none;
-}
-.redes li{
-  padding: 0px 5px;
-  display: inline-block;
-}
-button{
-  background-color: #515A5A;
-  color: white;
-  padding: 5px 15px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-button:hover{
-  list-style: none;
-  background-color: #444C4C;
-}
-
-
-/*
-header{
-  position: fixed;
-  top: 0;
-  background-color:#515A5A;
-  color: white;
-  box-sizing: border-box;
-  display: inline-block;
-  width: 100%;
-  height: 55px;
-  top: 0px;
-}
-header *{
-  font-size: 12px;
-  float: left;
-  list-style: none;
-  text-decoration: none;
-
-}
-header .logo{
-  height: 100%;
-
-}
-header .frase{
-  text-align: center;
-}
-header .redes{
-  box-sizing: border-box;
-  float: left;
-  height: 100%;
-  vertical-align: middle;
-}
-header .redes ul li{
-  display: inline-block;
-  padding: 5px;
-
-
-}
-header .redes ul li a{
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-*/
 body{
   /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
 
@@ -97,7 +9,7 @@ form{
   margin: 10% auto;
   border:solid 1px black;
   border-radius: 10px;
-  width: 40%;
+  width: 60%;
   padding: 15px;
 }
 
