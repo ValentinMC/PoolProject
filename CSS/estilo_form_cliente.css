@@ -2,6 +2,47 @@
   font-family: fuenteFormulario;
   src: url(../FONTS/Montserrat-Regular.ttf);
 }
+*{
+  font-family: fuenteFormulario;
+  font-weight: lighter;
+}
+header{
+  box-sizing: border-box;
+  padding: 0px 5%;
+  background-color: #515A5A;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  cursor: pointer;
+}
+ul{
+  padding: 0;
+}
+.redes{
+  list-style: none;
+}
+.redes li{
+  padding: 0px 5px;
+  display: inline-block;
+}
+button{
+  background-color: #515A5A;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  list-style: none;
+  background-color: #444C4C;
+}
+
+
+/*
 header{
   position: fixed;
   top: 0;
@@ -44,11 +85,12 @@ header .redes ul li a{
   text-align: center;
   text-decoration: none;
 }
+*/
 body{
   /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
-  font-family: fuenteFormulario;
-  font-weight: lighter;
+
   background: #bbbdff;
+  margin: 0;
 }
 form{
   background: rgba(250, 255, 251, 0.767);
@@ -81,6 +123,7 @@ input:invalid {
 #datos input:focus{
   background-color: #E3EEFF;
 }
+
 fieldset{
   border-radius: 5px;
   border-color: #bbbdff;
@@ -89,7 +132,6 @@ fieldset{
 legend{
   background-image:linear-gradient(#C0D9FF,#bbbdff );
   padding: 3px;
-  border: 1px solid black;
   border-radius: 5px;
 }
 select{
@@ -103,7 +145,6 @@ h1{
 }
 p{
   text-align: center;
-  font-size: 18px;
 }
 #gustos p{
   font-size: 17px;
