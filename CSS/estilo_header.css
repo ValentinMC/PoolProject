@@ -1,0 +1,42 @@
+@font-face {
+  font-family: fuenteFormulario;
+  src: url(../FONTS/Montserrat-Regular.ttf);
+}
+*{
+  font-family: fuenteFormulario;
+  font-weight: lighter;
+}
+header{
+  box-sizing: border-box;
+  padding: 0px 5%;
+  background-color: #515A5A;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  cursor: pointer;
+}
+ul{
+  padding: 0;
+}
+.redes{
+  list-style: none;
+}
+.redes li{
+  padding: 0px 5px;
+  display: inline-block;
+}
+button{
+  background-color: #515A5A;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  list-style: none;
+  background-color: #444C4C;
+}
