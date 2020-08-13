@@ -25,7 +25,6 @@ header p{
 }
 nav{
   flex: 1;
-
 }
 ul{
   padding: 0;
@@ -41,7 +40,7 @@ ul{
   display: inline-block;
 }
 
-button{
+header button{
   background-color: #515A5A;
   color: white;
   border: none;
@@ -52,4 +51,25 @@ button{
 button:hover{
   list-style: none;
   background-color: #444C4C;
+}
+
+/*HEADER 2*/
+.header2{
+  box-sizing: border-box;
+  padding: 0px 5%;
+  /*background-color: #515A5A;*/
+  background-color:;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+div button:hover{
+  list-style: none;
+  background-color: #444C4C;
+  color:white;
+  border-radius: 10px;
+}
+div li{
+  padding-right: 40px;
 }
