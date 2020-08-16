@@ -69,8 +69,10 @@ p{
 
 input[type="submit"]{
   color: grey;
+  cursor: pointer;
 }
 input[type="reset"]{
   color: grey;
   float: right;
+  cursor: pointer;
 }
