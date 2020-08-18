@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/all.css">
-    <link rel="stylesheet" href="../css/estilo_index.css">
     <link rel="stylesheet" href="../css/estilo_header.css">
     <title></title>
   </head>
@@ -20,18 +19,16 @@
           </ul>
         </nav>
     </header>
-    <div class="divPadre">
-      <div class="header2">
-        <ul class="redes">
-          <li><a href=""><button>Conocenos</button></a></li>
-          <li><a href=""><button>¿Por qué nosotros?</button></a></li>
-          <li><a href=""><button>Clientes satisfechos</button></a></li>
-        </ul>
+    <form method="post" action="" name="signin-form">
+      <div class="form-element">
+          <label>Username</label>
+          <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
       </div>
-      <div class="divHijo">
-        <a href="../HTML/form_cliente.html" class="aNieta">Pida su presupuesto ¡TOTALMENTE GRATIS!</a>
+      <div class="form-element">
+          <label>Password</label>
+          <input type="password" name="password" required />
       </div>
-    </div>
-
+      <button type="submit" name="login" value="login">Log In</button>
+    </form>
   </body>
 </html>

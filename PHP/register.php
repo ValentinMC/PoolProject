@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/all.css">
-    <link rel="stylesheet" href="../css/estilo_index.css">
     <link rel="stylesheet" href="../css/estilo_header.css">
+    <link rel="stylesheet" href="../css/estilo_registro_empresario.css">
     <title></title>
   </head>
   <body>
@@ -20,18 +20,20 @@
           </ul>
         </nav>
     </header>
-    <div class="divPadre">
-      <div class="header2">
-        <ul class="redes">
-          <li><a href=""><button>Conocenos</button></a></li>
-          <li><a href=""><button>¿Por qué nosotros?</button></a></li>
-          <li><a href=""><button>Clientes satisfechos</button></a></li>
-        </ul>
-      </div>
-      <div class="divHijo">
-        <a href="../HTML/form_cliente.html" class="aNieta">Pida su presupuesto ¡TOTALMENTE GRATIS!</a>
-      </div>
+    <form method="post" action="" name="signup-form">
+    <div class="form-element">
+        <label>Username</label>
+        <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
     </div>
-
+    <div class="form-element">
+        <label>Email</label>
+        <input type="email" name="email" required />
+    </div>
+    <div class="form-element">
+        <label>Password</label>
+        <input type="password" name="password" required />
+    </div>
+    <button type="submit" name="register" value="register">Register</button>
+</form>
   </body>
 </html>

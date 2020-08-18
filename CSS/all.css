@@ -1,0 +1,14 @@
+@font-face {
+  font-family: fuenteFormulario;
+  src: url(../FONTS/Montserrat-Regular.ttf);
+}
+*{
+  font-family: fuenteFormulario;
+  font-weight: lighter;
+}
+body{
+  /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+
+  background: #bbbdff;
+  margin: 0;
+}
