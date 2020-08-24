@@ -8,4 +8,10 @@
    Formulario usuario
 
    Formulario empresario
-   
+
+# Cosas pendientes
+## 24/08
+
+- Conectar los php con las BBDD desde XAMPP en ambos ordenadores.
+- Terminar enlaces de CSS con los HTML.
+- Ajustar los botones y organización final de las páginas para la presentación en la demo.
