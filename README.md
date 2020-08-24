@@ -1,13 +1,9 @@
 [Link a la documentacion del MarkDown Language](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 # PoolProject
-### Tareas
-1. Hacer demo
-
-   Index (juancar)
-
-   Formulario usuario
-
-   Formulario empresario
+## LINKS ÚTILES
+Para uso de HTML y CSS en general https://www.internetingishard.com/html-and-css/
+Para el sing-up https://mediatemple.net/blog/web-development-tech/interesting-takes-log-sign-forms/
+Para trucos CSS https://css-tricks.com/
 
 # Cosas pendientes
 ## 24/08
