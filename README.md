@@ -1,10 +1,10 @@
 [Link a la documentacion del MarkDown Language](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 # PoolProject
 ## LINKS ÚTILES
-Para uso de HTML y CSS en general https://www.internetingishard.com/html-and-css/
-Para el sing-up https://mediatemple.net/blog/web-development-tech/interesting-takes-log-sign-forms/
-Para trucos CSS https://css-tricks.com/
-Posible Hosting https://www.hostinger.es/
+- Para uso de HTML y CSS en general https://www.internetingishard.com/html-and-css/
+- Para el sing-up https://mediatemple.net/blog/web-development-tech/interesting-takes-log-sign-forms/
+- Para trucos CSS https://css-tricks.com/
+- Posible Hosting https://www.hostinger.es/
 
 # Cosas pendientes
 ## 24/08
