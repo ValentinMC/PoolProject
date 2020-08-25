@@ -41,8 +41,9 @@ if (isset($_POST['register'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/estilo_form_cliente.css">
     <link rel="stylesheet" href="../css/estilo_header.css">
-    <link rel="stylesheet" href="../css/estilo_registro_empresario.css">
+    <!--<link rel="stylesheet" href="../css/estilo_registro_empresario.css">-->
     <title></title>
   </head>
   <body>
