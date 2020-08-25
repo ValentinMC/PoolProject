@@ -22,7 +22,6 @@ ul{
   padding: 0;
 }
 .redes{
-
   flex:1;
   list-style: none;
 }
@@ -55,6 +54,9 @@ button:hover{
   color: white;
   display: flex;
   align-items: center;
+}
+#rrss{
+  float:right;
 }
 div button:hover{
   list-style: none;
